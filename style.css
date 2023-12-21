@@ -1,7 +1,33 @@
 body {
-  padding: 10px;
+  padding: 30px;
 }
 
 input {
-  margin: 5px;
+  
+}
+
+.name-field {
+  display: flex;
+  padding-top: 10px;
+  flex-direction: column;
+}
+
+.location-field {
+  display: flex;
+  padding-top: 10px;
+  flex-direction: column;
+}
+
+.message-field {
+  display: flex;
+  padding-top: 10px;
+  flex-direction: column;
+}
+
+button {
+  margin-top: 15px;
+}
+
+label {
+  padding-bottom: 5px;
 }
